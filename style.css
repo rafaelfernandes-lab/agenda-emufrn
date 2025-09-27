@@ -21,7 +21,7 @@ body{margin:0;font:16px/1.55 -apple-system,system-ui,Inter,Segoe UI,Roboto,sans-
 
 /* Logo da UFRN */
 .logo-ufrn {
-  height: 40px;   /* <-- ajuste manualmente */
+  height: 50px;   /* <-- ajuste manualmente */
   width: auto;
   display: block;
 }
@@ -132,59 +132,3 @@ body{margin:0;font:16px/1.55 -apple-system,system-ui,Inter,Segoe UI,Roboto,sans-
 .footer-text strong {
   color: var(--primary-ink);
 }
-/* Rodapé com logos lado a lado */
-.foot .logos {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 40px; /* espaço entre as logos */
-  margin-bottom: 12px;
-}
-
-/* Mesma altura para ambas as logos */
-.foot .logos img {
-  height: 100px;  /* ajuste o tamanho conforme necessário */
-  width: auto;
-}
-/* Rodapé com logos lado a lado */
-.foot .logos {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 40px;
-  margin-bottom: 12px;
-}
-
-/* Logo do CCHLA (maior) */
-.logo-cchla {
-  height: 180px;  /* aumente/diminua aqui conforme preferir */
-  width: auto;
-}
-
-/* Logo do PPGPI (menor) */
-.logo-ppgpi {
-  height: 90px;  /* mantém menor */
-  width: auto;
-}
-.footer-text {
-  text-align: center;
-  margin-bottom: 16px;
-  color: var(--muted);
-  font-size: 14px;
-  line-height: 1.5;
-}
-
-.foot .logos {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 40px;
-  margin-bottom: 12px;
-}
-
-.foot-text {
-  text-align: center;
-  font-weight: bold;
-  margin-top: 8px;
-}
-
