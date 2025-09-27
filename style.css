@@ -21,7 +21,7 @@ body{margin:0;font:16px/1.55 -apple-system,system-ui,Inter,Segoe UI,Roboto,sans-
 
 /* Logo da UFRN */
 .logo-ufrn {
-  height: 50px;   /* <-- ajuste manualmente */
+  height: 40px;   /* <-- ajuste manualmente */
   width: auto;
   display: block;
 }
@@ -157,7 +157,7 @@ body{margin:0;font:16px/1.55 -apple-system,system-ui,Inter,Segoe UI,Roboto,sans-
 
 /* Logo do CCHLA (maior) */
 .logo-cchla {
-  height: 160px;  /* aumente/diminua aqui conforme preferir */
+  height: 180px;  /* aumente/diminua aqui conforme preferir */
   width: auto;
 }
 
